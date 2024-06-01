@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="circle-container"></div>
+    <div id="content">
+      <div id="title-container">
+        <h2 id="subtitle">Hello there, I'm</h2>
+        <h1 id="title">Vihara</h1>
+      </div>
+      <section id="about-me">
+        <h3 class="section-heading">About me</h3>
+
+        <div class="card" id="about-me-card">
+          <img src="assets/pfp.jpg" id="pfp" alt="profile picture of me" />
+          <p>
+            I am Vihara Girihagama. With a deep love for technology, I have delved into web development, cybersecurity and linux. Having graduated high school In Sri Lanka, I am currently studying at the University of Adelaide for a Bacehlor of Computer Science (Advanced).
+          </p>
+        </div>
+      </section>
+      <section id="projects">
+        <h3 class="section-heading">Projects</h3>
+        <div class="card project-card" id="tetris-project">
+          <h2 class="card-heading left">Tetris in MATLAB</h2>
+          <div class="image-container">
+          <img
+            class="project-image"
+            alt="Tetris Project Image"
+            src="assets/Tetris.png"
+          />
+        </div>
+          <p class="left">
+            I have build Tetris using MATLAB for a project at university. During
+            this project I demonstrated my ability to use vectors to store
+            sprites, manipulate images to display those sprites and use matrices
+            and coordinate geometry to apply rotations and translations to the
+            game.
+            <br />
+            <br />
+            <a href="https://github.com/Kingteena/Tetris" class="left"
+              >Check out the Github Repo <i class="fa fa-search"></i
+            ></a>
+          </p>
+        </div>
+        <div class="card project-card" id="personal-site">
+          <h2 class="card-heading right">Old Personal site - HTML & CSS</h2>
+          <div class="image-container">
+          <img
+            class="project-image"
+            alt="Old Website Image"
+            src="assets/old-site.png"
+          />
+        </div>
+          <p class="left">
+            I have been programming ever since I was 14. I have left my first
+            personal website to remind me of my humble beginnings: following
+            tutorials, learning, fixing bugs, but finally creating something I
+            can be proud of.
+            <br />
+            <br />
+            <a href="https://kingteena.github.io/old-personal-site" class="left"
+              >Check out the website <i class="fa fa-search"></i>
+            </a>
+            <br />
+            <br />
+            <a
+              href="https://github.com/Kingteena/old-personal-site"
+              class="left"
+              >Check out the Github Repo <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+        <div class="card project-card" id="project3">
+          <h2 class="card-heading left">Python Scripts</h2>
+          <p class="left">
+            I have written several Python scripts, some of which to automate
+            parts of my life, others just for fun. I have uploaded most of these
+            onto my Github. <br />
+            <br />
+            Examples include a timer script, a web-based application to keep
+            track of and mark MCQs I do and an inventory manager for a fake
+            saloon.
+          </p>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>© Vihara Girihagama 2024</p>
+      <div id="socials">
+            <a href="mailto:viharag21@gamil.com" class="fa fa-envelope"></a>
+            <a
+              href="https://www.linkedin.com/in/vihara-girihagama/"
+              class="fa fa-linkedin"
+            ></a>
+            <a href="https://www.github.com/kingteena" class="fa fa-github"></a>
+          </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
