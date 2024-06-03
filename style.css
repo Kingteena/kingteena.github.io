@@ -105,14 +105,13 @@ h3 {
 #about-me-card {
   border: solid #1c4e7c;
   background: linear-gradient(#256f94, #561139);
-  background-blend-mode: color-dodge;
   display:flex;
   opacity: 0.9;
 }
 
 #about-me-card p{
   margin: auto;
-  padding: 0 2rem;
+  padding: 2rem;
   text-align: justify;
   font-size: 1.3rem;
 }
@@ -245,4 +244,20 @@ footer {
 footer p {
   text-align: center;
   margin: 0;
+}
+
+@media (max-width: 800px) {
+  #about-me-card{
+    display:block;
+  }
+
+  #pfp{
+    width: 80%;
+    height: auto;
+    margin:  10%;
+  }
+
+  #personal-site .card-heading{
+    width: 100%;
+  }
 }
