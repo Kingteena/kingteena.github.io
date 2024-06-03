@@ -251,6 +251,11 @@ footer p {
     display:block;
   }
 
+  #about-me-card p{
+    text-align: left;
+    padding: 1rem;
+  }
+
   #pfp{
     width: 80%;
     height: auto;
